@@ -54,7 +54,7 @@ public class IdentityProviderBean {
 
     public static OrderedModel.OrderedModelComparator<IdentityProvider> IDP_COMPARATOR_INSTANCE = new OrderedModel.OrderedModelComparator<>();
     private static final String ICON_THEME_PREFIX = "kcLogoIdP-";
-    private static final String IDP_THEME_CONFIG_PREFIX = "theme_";
+    private static final String IDP_THEME_CONFIG_PREFIX = "kcTheme-";
 
     protected AuthenticationFlowContext context;
     protected List<IdentityProvider> providers;
